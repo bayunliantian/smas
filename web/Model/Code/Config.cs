@@ -3,7 +3,7 @@ using System;
 namespace Tc.Model
 {
 	/// <summary>
-	/// Config:实体类(属性说明自动提取数据库字段的描述信息)
+	/// Config:实体类 wl
 	/// </summary>
 	[Serializable]
 	public partial class Config
