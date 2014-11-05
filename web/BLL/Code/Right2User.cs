@@ -1,30 +1,15 @@
-﻿/**  版本信息模板在安装目录下，可自行修改。
-* Right2User.cs
-*
-* 功 能： N/A
-* 类 名： Right2User
-*
-* Ver    变更日期             负责人  变更内容
-* ───────────────────────────────────
-* V0.01  2014/11/3 21:51:30   N/A    初版
-*
-* Copyright (c) 2012 Maticsoft Corporation. All rights reserved.
-*┌──────────────────────────────────┐
-*│　此技术信息为本公司机密信息，未经本公司书面同意禁止向第三方披露．　│
-*│　版权所有：sams　　　　　　　　　　　　　　│
-*└──────────────────────────────────┘
-*/
+﻿
 using System;
 using System.Data;
 using System.Collections.Generic;
-
 using Tc.Model;
+
 namespace Tc.BLL
 {
 	/// <summary>
 	/// Right2User
 	/// </summary>
-	public partial class Right2User
+    public partial class Right2User : BLLBase<Right2User>
 	{
 		private readonly Tc.DAL.Right2User dal=new Tc.DAL.Right2User();
 		public Right2User()
