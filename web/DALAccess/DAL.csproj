@@ -93,23 +93,6 @@
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\DotNet.dll" />
-    <Content Include="bin\Debug\DotNet.xml" />
-    <Content Include="bin\Debug\Model.dll" />
-    <Content Include="bin\Debug\Model.pdb" />
-    <Content Include="bin\Debug\System.Data.SQLite.DLL" />
-    <Content Include="bin\Debug\Tc.DALAccess.dll" />
-    <Content Include="bin\Debug\Tc.DALAccess.pdb" />
-    <Content Include="bin\Debug\Tc.DALSqlite.dll" />
-    <Content Include="bin\Debug\Tc.DALSqlite.pdb" />
-    <Content Include="bin\Release\DotNet.dll" />
-    <Content Include="bin\Release\Model.dll" />
-    <Content Include="bin\Release\Model.pdb" />
-    <Content Include="bin\Release\System.Data.SQLite.DLL" />
-    <Content Include="bin\Release\Tc.DALAccess.dll" />
-    <Content Include="bin\Release\Tc.DALAccess.pdb" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

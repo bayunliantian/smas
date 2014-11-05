@@ -61,6 +61,10 @@
     <Reference Include="System.Drawing">
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.EnterpriseServices.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web">
       <Private>True</Private>
     </Reference>
@@ -77,9 +81,6 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Services">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.EnterpriseServices">
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mobile">
@@ -553,27 +554,6 @@
     <Content Include="anli\info.aspx" />
     <Content Include="anli\list.aspx" />
     <Content Include="App_Data\8.mdb" />
-    <Content Include="bin\AspNetPager.dll" />
-    <Content Include="bin\DotNet.dll" />
-    <Content Include="bin\Intelligencia.UrlRewriter.dll" />
-    <Content Include="bin\Model.dll" />
-    <Content Include="bin\Model.pdb" />
-    <Content Include="bin\System.Drawing.dll" />
-    <Content Include="bin\System.EnterpriseServices.dll" />
-    <Content Include="bin\System.Web.dll" />
-    <Content Include="bin\System.Web.DynamicData.dll" />
-    <Content Include="bin\System.Web.Entity.dll" />
-    <Content Include="bin\System.Web.Extensions.dll" />
-    <Content Include="bin\System.Web.Mobile.dll" />
-    <Content Include="bin\System.Web.Services.dll" />
-    <Content Include="bin\System.Xml.dll" />
-    <Content Include="bin\System.Xml.Linq.dll" />
-    <Content Include="bin\Tc.BLL.dll" />
-    <Content Include="bin\Tc.BLL.pdb" />
-    <Content Include="bin\Tc.DALAccess.dll" />
-    <Content Include="bin\Tc.DALAccess.pdb" />
-    <Content Include="bin\Tc.Web.dll" />
-    <Content Include="bin\Tc.Web.pdb" />
     <Content Include="config.xml" />
     <Content Include="control\about.ascx" />
     <Content Include="control\ad.ascx" />
