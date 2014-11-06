@@ -17,14 +17,14 @@
 using System;
 using System.Data;
 using System.Collections.Generic;
-using Tc.Model;
 
+using Tc.Model;
 namespace Tc.BLL
 {
 	/// <summary>
 	/// Config
 	/// </summary>
-    public partial class Config : BLLBase<Config>
+	public partial class Config
 	{
 		private readonly Tc.DAL.Config dal=new Tc.DAL.Config();
 		public Config()
